@@ -11,12 +11,12 @@ jobs:
     steps:
       # Need to access repos-file
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3.0.2
       - name: Launch Scala Steward
         # https://github.com/scala-steward-org/scala-steward-action
-        uses: scala-steward-org/scala-steward-action@v2
+        uses: scala-steward-org/scala-steward-action@v2.22.0
         with:
           # set ADMIN_GITHUB_TOKEN secret in the repository
           github-token: ${{ secrets.ADMIN_GITHUB_TOKEN }}
-          author-email: githubaccount@example.com
+          author-email: 40358+kijuky@users.noreply.github.com
           repos-file: 'repos.md'
