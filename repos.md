@@ -1,6 +1,7 @@
 # repos.md
 
 - kijuky/ammonite-predef
+- kijuky/line-notify
 - kijuky/sbt-yamory
-- kijuky/springboot-scala.g8
 - kijuky/scala-getting-started
+- kijuky/springboot-scala.g8
