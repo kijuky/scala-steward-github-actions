@@ -6,3 +6,4 @@
 - kijuky/scala-getting-started
 - kijuky/slack-incoming-webhook
 - kijuky/springboot-scala.g8
+- kijuky/study
